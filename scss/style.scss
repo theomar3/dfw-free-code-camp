@@ -1,0 +1,458 @@
+@import 'reset';
+@font-face {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(fonts/8qcEw_nrk_5HEcCpYdJu8BTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+@font-face {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(fonts/MDadn8DQ_3oT6kvnUq_2r_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000
+}
+@font-face {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'), url(fonts/MgNNr5y1C_tIEuLEmicLmwLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000
+}
+@font-face {
+    font-family: Lato;
+    font-style: italic;
+    font-weight: 400;
+    src: local('Lato Italic'), local('Lato-Italic'), url(fonts/1KWMyx7m-L0fkQGwYhWwuuvvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000
+}
+@font-face {
+    font-family: Lato;
+    font-style: italic;
+    font-weight: 700;
+    src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(fonts/HkF_qI1x_noxlxhrhMQYEJBw1xU1rKptJj_0jans920.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000
+}
+
+body {
+  font-family: Lato, sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  text-align:center;
+  margin: 45px auto;
+}
+
+
+.header {
+  text-align:left;
+  float: left;
+  width: 40%;
+
+}
+
+.hero-image {
+  float: right;
+  padding-top: 40px;
+  width: 60%;
+}
+
+
+.header h1 {
+  color: #4da7e8;
+	font-size: 2.25em;
+	font-weight: bold;
+  margin-bottom: 45px;
+}
+
+h2 {
+  font-size: 1.45em;
+  line-height: 1.4em;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 1.1em;
+  margin-bottom: 35px;
+  line-height: 1.6em;
+}
+
+
+
+.registrants {
+  font-weight: bold;
+  text-decoration: underline;
+
+}
+
+.registration-msg {
+  border-radius: 5px;
+  background-color: rgba(201, 26, 26, .38);
+  color: white;
+  font-size: 1.3em;
+  text-align: center;
+  line-height: 1.3em;
+  width: 280px;
+  padding: 6px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.weekend {
+  clear: both;
+  overflow: auto;
+}
+
+.activity {
+  width: 29.3333%;
+  float: left;
+  padding: 0 2%;
+}
+
+.activity p {
+  color: rgba(151, 151, 151, 1.0);
+  width: 80%;
+  margin-left: 8%;
+}
+
+.activity img {
+  max-width: 100px;
+}
+
+.learn-html p {
+  margin-top: 43px;
+}
+
+.learn-css p {
+  margin-top: 30px;
+}
+
+.learn-js p {
+  margin-top: 13px;
+}
+
+
+.weekend h3 {
+  font-size: 1.85em;
+  margin-bottom: 50px;
+  margin-top: 85px;
+  text-align: center;
+}
+
+.schedule {
+  font-size: 2.25em;
+	font-weight: bold;
+  text-align: center;
+  margin: 50px 0 40px 0;
+}
+
+.schedule-box {
+  overflow: auto;
+  border: 1px solid #4da7e8;
+  width: 57%;
+  margin: 13px auto;
+  border-radius: 4px;
+}
+
+
+.date-box {
+  float: left;
+  width: 45%;
+  margin: 0 auto;
+  background-color: #4da7e8;
+  color: white;
+  padding: 20px 3%;
+}
+
+
+.date-box img {
+  width: 25%;
+  float: left;
+}
+
+.box-text {
+  float: left;
+  width: 75%;
+  font-size: 1.5em;
+  margin-top: 18px;
+}
+
+.timings {
+  float: left;
+  width: 45%;
+  font-size: 1.7em;
+  margin-top: 25px;
+  padding: 10px;
+}
+
+.lunch {
+  color: green;
+  font-size: 1.3em;
+}
+
+.at-sign {
+  font-size: 3.2em;
+  font-weight: bold;
+  margin-top: 35px;
+}
+
+.p1 {
+  font-size: 2.2em;
+  color: #4da7e8;
+  margin-top: 20px;
+}
+
+.p2, .p3 {
+  color: #4da7e8;
+  font-size: 1.5em;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #4da7e8;
+}
+
+.bottom-container {
+  background-color: #DDD;
+  overflow: auto;
+  width: 100%;
+  clear: both;
+}
+
+.bottom-container img {
+  max-width: 77px;
+  float: left;
+}
+
+.mentors {
+  font-size: 38px;
+  font-weight: bold;
+  margin: 25px 0px 25px 0px ;
+}
+
+.dudes {
+  float: left;
+  width: 45%;
+}
+
+.dudes:nth-child(odd) {
+  padding-left: 5%;
+}
+
+.dudes:nth-child(even) {
+  padding-right: 5%;
+}
+
+.name-title {
+  color: #4da7e8;
+  float: left;
+  width: 50%;
+  padding: 18px 4% 0px 4%;
+  text-align: left;
+}
+
+.mentor-class {
+  color: rgba(150, 150, 150, 1.0);
+  font-size: .8em;
+  margin-top: -40px;
+}
+
+.mentor-paragraph {
+  clear:both;
+  font-style: italic;
+  text-align: left;
+  font-size: .9em;
+}
+
+.mentor-paragraph p {
+  margin-bottom: 0;
+  padding-bottom: 35px;
+}
+
+.footer img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 2%;
+}
+
+.footer-text {
+  font-size: 1.9em;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 990px) {
+  .container {
+    width: 88%;
+  }
+
+  .date-box {
+    float: none;
+    width: auto;
+    overflow: auto;
+  }
+
+  .date-box img {
+    width: 15%;
+  }
+
+  .box-text {
+    font-size: 2em;
+  }
+
+  .timings {
+    float: none;
+    width: auto;
+    font-size: 2.5em;
+
+  }
+
+  .timings:last-child {
+    margin-bottom: 30px;
+  }
+
+  .lunch {
+    margin: 0 auto 10px auto;
+  }
+
+}
+
+
+@media screen and (max-width: 940px) {
+  .header {
+    text-align:center;
+    float: none;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .hero-image {
+    text-align: center;
+    float: none;
+    padding-top: 40px;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    line-height: auto;
+    width: auto;
+    text-align: center;
+  }
+
+  .registration-msg {
+    margin: 0 auto;
+  }
+
+  .hero-image img {
+    margin-left: 3%;
+    max-width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+  .dudes {
+    float: none;
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #bbb;
+    padding-top: 10px;
+  }
+  .dudes:nth-child(odd) {
+    padding-left: 0%;
+  }
+
+  .dudes:nth-child(even) {
+    padding-right: 0%;
+  }
+
+  .dudes:last-child {
+    border-bottom: none;
+  }
+
+  .mentor-paragraph p {
+    padding-bottom: 20px;
+  }
+
+}
+
+@media screen and (max-width: 650px) {
+
+  .weekend h3 {
+    line-height: 1.2em;
+  }
+
+  .activity {
+    width: auto;
+    float: none;
+    margin: 0 auto 50px auto;
+    padding: 0 2%;
+  }
+
+  .activity p {
+    margin-bottom: 20px;
+  }
+
+  .activity img {
+    // max-width: 20%;
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+}
+
+@media screen and (max-width: 590px) {
+  .timings {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .timings {
+    width: 80%;
+    font-size: 2.5em;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 20px 0;
+
+  }
+
+  .date-box img {
+    display: none;
+  }
+
+  .box-text {
+    float: none;
+    width: 75%;
+    font-size: 2em;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+}
+
+  @media screen and (max-width: 420px) {
+    .box-text {
+      float: none;
+      width: 80%;
+      font-size: 2em;
+      margin: 0 auto;
+      text-align: center;
+
+    }
+
+}
